@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Landing Page With Flexbox</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="http//maxcdn.bootstrapcnd.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <header>
+        <div class="nav">
+            <ul>
+                <li class="หน้าแรก"><a href="#">หน้าแรก</a></li>
+                <li class="เกี่ยวกับสาขา"><a href="#">เกี่ยวกับสาขา</a>
+                    <ul>
+                        <li><a href="#">แนะนำสาขา</a></li>
+                        <li><a href="#">ห้องเรียนสาขา</a></li>
+                        <li><a href="#">คณาจารย์</a></li>
+                        <li><a href="#">หลักสูตรที่เปิดสอน</a></li>
+                    </ul>
+                </li>
+                <li class="E-Learning"><a href="#">E-Learning</a>
+                    <ul>
+                        <li><a href="#">สำหรับนักศึกษารหัส 55 - 56</a></li>
+                        <li><a href="#">สำหรับนักศึกษารหัส 57 - 63</a></li>
+                    </ul>     
+                </li>
+                <li class="ข่าว"><a href="#">ข่าว</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="background-image" style="background-image: url(images/pexels-photo-1287145.jpeg);">
+            <h1>Computer Science</h1>
+            <h3>Mae-jo University</h3>
+            <a href="#">Click Here</a>
+        </div>
+    </section>
+
+    <section class="our-work">
+        <h3 class="title"></h3>
+        <p>วีดีโอแนะนำสาขา</p>
+            <body >
+                <iframe width="1500" height="800"
+                src="https://www.youtube.com/embed/G8fDdphirGY"></iframe>
+            </body>
+        <hr>
+
+        <ul class="grid">
+            <li class="small" style="background-image: url(images/รับสมัคร.jpg);"></li>
+            <li class="large" style="background-image: url(images/Welcome\ to\ csmju.jpg);"></li>
+            <li class="large" style="background-image: url(images/บูม.jpg);"></li>
+            <li class="small" style="background-image: url(images/รูปจบ.jpg);"></li>
+        </ul>
+    </section>
+
+    <section class="features">
+        <h3 class="title">ปรัชยา</h3>
+        <p>   ปรัชญาการศึกษาของมหาวิทยาลัย คือ “จัดการศึกษาเพื่อเสริมสร้างปัญญาในรูปแบบการเรียนรู้จากการปฏิบัติที่บูรณาการกับการทำงานตามอมตะโอวาท งานหนักไม่เคยฆ่าคน มุ่งให้ผู้เรียน มีทักษะการเรียนรู้ตลอดชีวิต สามารถพัฒนาทักษะเดิม สร้างเสริมทักษะใหม่ มีวิธีคิดของการเป็นผู้ประกอบการ มีการใช้เทคโนโลยีดิจิทัลและการสื่อสาร มีความตระหนักต่อสังคม วัฒนธรรมและสิ่งแวดล้อม ยึดมั่นในความสัมพันธ์ระหว่างมหาวิทยาลัยกับชุมชน ตามจุดยืนของมหาวิทยาลัยแม่โจ้ ที่ว่า มหาวิทยาลัยแห่งชีวิต” (ที่ประชุมสภามหาวิทยาลัยแม่โจ้ ให้ความเห็นชอบ ในการประชุมครั้งที่ 7/2563 เมื่อวันที่ 8 กันยายน 2563 ตามรายละเอียดหนังสือที่ อว 68.1.1.2/ว142 ลงวันที่ 11 กันยายน 2563)
+
+            ปรัชญาการศึกษาของหลักสูตร คือ “ผลิตบัณฑิตที่มีคุณธรรม จริยธรรม เป็นผู้นำ และสร้างสรรค์สังคมด้วยวิชาการ เชี่ยวชาญทางด้านวิทยาการคอมพิวเตอร์ และเทคโนโลยีสารสนเทศ” </p>
+
+        <ul class="grid">
+            <li>
+                <i class="fa fa-camera-retro"></i>
+                <h4>Photography</h4>
+                <p>....................</p>
+            </li>
+            <li>
+                <i class="fa fa-cubes"></i>
+                <h4>Web Davelopment</h4>
+                <p>....................</p>
+            </li>
+            <li>
+                <i class="fa fa-newpaper"></i>
+                <h4>Content Editing</h4>
+                <p>....................</p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="reviews">
+        <h3 class="title">What others say</h3>
+
+        <p class="quote">.............................</p>
+        <p class="author">-Patrick Farrell</p>
+
+        <p class="quote">.............................</p>
+        <p class="author">-Patrick Farrell</p>
+
+        <p class="quote">.............................</p>
+        <p class="author">-Patrick Farrell</p>
+    </section>
+
+    <section>
+        <h3 class="title">Join our newsletter</h3>
+        <p>..............................</p>
+        <hr>
+
+        <form action="siriyacn@gmail.com">
+            <input type="email" placeholder="Email">
+            <a href="#" class="btn">Subcribe now</a>
+        </form>
+    </section>
+
+</body>
+</html>
